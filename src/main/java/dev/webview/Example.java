@@ -13,8 +13,8 @@ public class Example {
 
         wv.setSize(800, 600);
         // wv.loadURL("https://google.com");
+        // wv.loadURL("https://www.csic.es/es");
         wv.loadURL("http://localhost:8080/java-in-the-browser/");
-        wv.loadURL("https://www.csic.es/es");
 
         // Run the webview event loop, the webview is fully disposed when this returns.
         wv.run();
